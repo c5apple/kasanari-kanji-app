@@ -10,9 +10,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PlayComponent implements OnInit {
 
+  /** 出題漢字 */
+  private characters: string;
+
   constructor() { }
 
   ngOnInit() {
+    this.characters = '漢字';
   }
 
 }
